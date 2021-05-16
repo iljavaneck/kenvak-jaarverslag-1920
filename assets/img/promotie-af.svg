@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="promotie-af" transform="translate(-837 -6248)">
+    <rect id="Rectangle_32" data-name="Rectangle 32" width="60" height="60" rx="5" transform="translate(837 6248)" fill="rgba(216,0,0,0.15)"/>
+    <g id="checkmark" transform="translate(849.584 6262.028)">
+      <path id="Path_55" data-name="Path 55" d="M15.964,31.936a15.964,15.964,0,1,1,8.612-29.4A1.089,1.089,0,0,1,23.4,4.365a13.785,13.785,0,1,0,6.352,11.607c0-.454-.022-.9-.064-1.347a1.088,1.088,0,1,1,2.167-.21q.074.769.074,1.557A15.982,15.982,0,0,1,15.964,31.936Zm0,0" fill="#d80000"/>
+      <path id="Path_56" data-name="Path 56" d="M156.958,39.488a1.08,1.08,0,0,1-.769-.319l-6.531-6.531a1.089,1.089,0,1,1,1.54-1.54l5.762,5.762,15.193-15.193a1.089,1.089,0,1,1,1.54,1.54L157.729,39.17A1.09,1.09,0,0,1,156.958,39.488Zm0,0" transform="translate(-139.181 -19.888)" fill="#d80000"/>
+    </g>
+  </g>
+</svg>

@@ -36,6 +36,10 @@ p{
     line-height: 30px;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 .navbar{
     width: 100vw;
     height: 80px;
@@ -52,7 +56,7 @@ p{
 }
 
 .navbar__content p{
-    font-weight: bold;
+    font-family: dolly-new;
     margin-left: 15px;
 }
 
@@ -76,6 +80,10 @@ p{
     position: relative;
     display: flex;
     padding: 0px 3vw;
+}
+
+.container.small{
+    max-width: 912px;
 }
 
 .header{
@@ -267,6 +275,503 @@ h1{
     margin-bottom: 20px;
 }
 
+.bijzonder{
+    width: 100%;
+    padding: 160px 0px;
+}
+
+.bijzonder h5{
+    font-size: 50px;
+}
+
+.bijzonder p{
+    width: 450px;
+}
+
+.bijzonder p.first{
+    margin-top: 65px;
+}
+
+.bijzonder__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bijzonder__img__left{
+    position: relative;
+    width: 50%;
+}
+
+.bijzonder__img__left img:first-of-type{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.bijzonder__img__left img:nth-of-type(2){
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+}
+
+.bijzonder__img__left img:nth-of-type(3){
+    position: absolute;
+    z-index: 2;
+    bottom: -170px;
+    right: -60px;
+}
+
+.bijzonder__img__right{
+    position: relative;
+    width: 50%;
+    order: 2;
+}
+
+.bijzonder__container.second{
+    margin-top: 230px;
+}
+
+.bijzonder__img__right img:first-of-type{
+    position: absolute;
+    top: 0;
+    left: -65px;
+    z-index: 2;
+}
+
+.bijzonder__img__right img:nth-of-type(2){
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+}
+
+.bijzonder__img__right img:nth-of-type(3){
+    position: absolute;
+    z-index: 2;
+    left: -65px;
+    bottom: -80px;
+    z-index: 2;
+}
+
+.publicaties__bg{
+    width: 100vw;
+    height: 800px;
+    margin-top: 100px;
+    background-image: url(../assets/img/publicaties-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.publicaties__cards{
+    height: 800px;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.publicaties__card{
+    background-color: #141414ee;
+    color: var(--white);
+    width: 490px;
+    height: 420px;
+}
+
+.publicaties__card.red{
+    background-color: #d80000ce;
+}
+
+.publicaties__card h6{
+    margin: 80px 0px 10px 60px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.publicaties__card p{
+    margin-left: 60px;
+    margin-bottom: 30px;
+    max-width: 360px;
+}
+
+.publicaties__card a{
+    margin-left: 60px;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    transition: margin 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.publicaties__card a img{
+    margin-left: 10px;
+}
+
+.publicaties__card a:hover img{
+    margin-left: 20px;
+    transition: margin 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.floats{
+    padding: 160px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.float{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.float.top{
+    margin-bottom: 120px;
+}
+
+.float__img{
+    width: 50%;
+    height: auto;
+}
+
+.float__text{
+    width: 45%;
+}
+
+.float h3{
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.float p{
+    margin-bottom: 50px;
+}
+
+.black__cta{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.black__cta img{
+    margin-left: 10px;
+    transition: margin 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.black__cta:hover img{
+    margin-left: 20px;
+    transition: margin 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.promoties{
+    padding-top: 160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.promoties h5{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.promo__cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.promo__card{
+    width: 40%;
+    box-shadow: 0px 0px 15px #d800000a;
+    border-radius: 10px;
+    padding: 70px 20px 70px 70px;
+}
+
+.promo__card__icon{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.promo__card h6{
+    font-size: 30px;
+}
+
+.promo__card p{
+    max-width: 80%;
+    margin: 15px 0px 30px 0px;
+}
+
+.onderwijs{
+    padding: 160px 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.onderwijs h5{
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+
+.onderwijs p{
+    max-width: 80%;
+    margin-bottom: 50px;
+}
+
+.numbers{
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 100px;
+}
+
+.number{
+    padding: 0px 0px 15px 20px;
+    border-left: 5px solid #d80000;
+}
+
+.number__large{
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 120px;
+}
+
+.number__small{
+    margin-top: -30px;
+    margin-bottom: 0px !important;
+}
+
+.moovon{
+    padding: 160px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.moovon h5{
+    line-height: 55px;
+}
+
+.minor{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.minor h5{
+    font-size: 50px;
+    margin-bottom: 120px;
+}
+
+.minor__cards{
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.minor__card{
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 530px;
+    height: 250px;
+}
+
+.minor__card p{
+    margin-top: 30px;
+}
+
+.minor__icon{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 50%;
+    background-color: #fff;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 7px #d8000010;
+}
+
+.minor__icon img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inter__logos{
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.inter__logos a{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    transition: filter 0.1s ease-in-out;
+}
+
+.inter__logos a:hover{
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    transition: filter 0.1s ease-in-out;
+}
+
+.impact{
+    padding: 160px 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.impact h5{
+    font-size: 80px;
+    line-height: 90px;
+    margin-bottom: 100px;
+}
+
+.impact__cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.impact__card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--white);
+    width:90%;
+    padding: 45px 30px 45px 60px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.impact__text{
+    margin-left: 45px;
+}
+
+.impact h6{
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+.impact p{
+    margin-bottom: 40px;
+}
+
+.media{
+    width: 100%;
+    margin: 0 auto;
+    padding: 160px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.media h5{
+    font-size: 80px;
+    margin-bottom: 60px;
+}
+
+.media__cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.media__card{
+    background-color: var(--white);
+    width: 45%;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    padding-bottom: 60px;
+    box-shadow: 0px 0px 10px #d8000010;
+}
+
+.media__img{
+    width: 100%;
+    height: auto;
+}
+
+.media__card h6{
+    font-size: 30px;
+    line-height: 45px;
+    margin: 15px 0px 15px 30px;
+}
+
+.media__card p{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    max-width: 80%;
+}
+
+.media__card a{
+    margin-left: 30px;
+}
+
+.logos__bottom{
+    padding: 160px 0px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos__bottom img{
+    width: 150px;
+    height: auto;
+}
+
+.logos__bottom a{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    transition: filter 0.1s ease-in-out;
+}
+
+.logos__bottom a:hover{
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    transition: filter 0.1s ease-in-out;
+}
+
+.footer{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__right a{
+    color: var(--black);
+    text-decoration: underline !important;
+}
+
+.footer__right a:hover{
+    color: var(--hover);
+}
+
+
+
+
+
+
+
 
 
 
@@ -284,6 +789,31 @@ h1{
     .missie__card{
         width: 350px;
         padding: 50px 35px 80px 50px;
+    }
+
+    .intro__vid{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .bijzonder p{
+        width: 500px;
+    }
+
+    .float__text{
+        width: 40%;
+    }
+
+    .promo__card p{
+        max-width: 90%;
+    }
+
+    .minor__cards{
+        width: 80%;
+    }
+
+    .navbar__content{
+        margin-left: 12vw;
     }
 
 }
@@ -315,6 +845,96 @@ h1{
 
 }
 
+@media (max-width: 1200px){
+
+    .bijzonder__container{
+        flex-direction: column;
+    }
+
+    .bijzonder__img__left{
+        width: 80%;
+        height: 750px;
+        margin-top: 80px;
+        margin: 0 auto;
+        background-image: url(../assets/img/bijzonder1-totaal@2x.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .bijzonder__img__right{
+        width: 80%;
+        height: 750px;
+        margin-top: 80px;
+        margin: 0 auto;
+        background-image: url(../assets/img/bijzonder2-totaal@2x.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .bijzonder p{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .bijzonder__container.second{
+        margin-top: 80px;
+    }
+
+    .bijzonder__container.second .bijzonder__p{
+        order: 2;
+    }
+
+    .bijzonder__img__left img, .bijzonder__img__right img{
+        display: none;
+    }
+
+    .bijzonder__img__right{
+        order: 2;
+    }
+
+    .minor__cards{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 100px;
+    }
+
+    .minor__card{
+        margin: 0 auto;
+    }
+
+}
+
+
+@media (max-width: 1080px){
+
+    .onderwijs h5{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .publicaties__card{
+        width: 50%;
+    }
+
+    .publicaties__card p{
+        margin-right: 15px;
+    }
+
+    .publicaties__card p, .publicaties__card h6, .publicaties__card a{
+        margin-left: 40px;
+    }
+
+    .inter__logos{
+        max-width: 100%;
+    }
+
+    .impact h5{
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+}
 
 
 
@@ -401,8 +1021,19 @@ h1{
         margin-bottom: 20px;
     }
 
+    .float h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .footer{
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: center;
+    }
 
 }
+
 
 
 
@@ -430,16 +1061,168 @@ h1{
         left: 10%;
     }
 
-    .intro__vid__right h5, .missie__text h6{
+    .intro__vid__right h5, .missie__text h6, .minor h5{
         font-size: 40px;
+        line-height: 50px;
     }
 
     .missie__card{
         width: 90%;
     }
 
+    .publicaties__bg{
+        background-image: none;
+        height: auto;
+    }
+
+    .publicaties__cards{
+        height: auto;
+    }
+
+    .container.publicaties{
+        width: 100vw;
+        padding: 0vw 0vw;
+    }
+
+    .bijzonder__img__left, .bijzonder__img__right{
+        width: 80%;
+        background-size: contain;
+        height: 500px
+    }
+
+    .bijzonder__img__right{
+        margin-top: 0px;
+    }
+
+    .bijzonder__p{
+        margin-top: 40px !important;
+        width: 100% !important;
+    }
+
+    .float{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .float__img{
+        width: 100%;
+        margin-bottom: 40px;
+        order: -1;
+    }
+
+    .float__text{
+        width: 100%;
+    }
+
+    .promoties h5{
+        text-align: left;
+    }
+
+    .promo__cards{
+        flex-direction: column;
+    }
+
+    .promo__card{
+        width: 85%;
+    }
+
+    .bijzonder h5, .promoties h5{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .impact__cards{
+        margin-bottom: 60px;
+    }
+
+    .impact__card{
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        padding: 45px 45px 60px 45px;
+    }
+
+    .impact__text{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .impact h6{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 30px;
+    }
+
+    .impact h5{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .impact p{
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .media__cards{
+        flex-direction: column;
+    }
+
+    .media__card{
+        width: 80%;
+        margin: 0 auto 60px auto;
+    }
+
+    .media h5{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+
 }
 
+
+
+
+
+
+@media (max-width: 650px){
+
+    .publicaties__cards{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .publicaties__card{
+        width: 100%;
+
+    }
+
+    .float{
+        width: 100%;
+    }
+    
+    .number__large{
+        font-size: 100px;
+    }
+
+    .number__small{
+        margin-top: -50px;
+    }
+
+    .minor__card{
+        width: 100%;
+    }
+
+    .impact__card{
+        width: 70%;
+    }
+
+    .media__card{
+        width: 100%;
+    }
+
+}
 
 
 @media (max-width: 600px){
@@ -482,6 +1265,25 @@ h1{
         right: auto;
     }
 
+    .promo__card{
+        padding: 40px 40px 70px 30px;
+    }
+
+    .numbers{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 60px;
+    }
+
+    .impact__card{
+        width: 90%;
+        padding: 45px 20px 60px 20px;
+    }
+
+    .impact h5{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
 
 }
 
@@ -497,6 +1299,23 @@ h1{
         padding: 120px 0px;
     }
 
+    .bijzonder__img__left, .bijzonder__img__right{
+        height: 450px
+    }
+
+    .promo__card{
+        padding-right: 30px;
+    }
+
+    .media h5{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .logos__bottom img{
+        width: 110px;
+        height: auto;
+    }
 }
 
 
@@ -517,7 +1336,7 @@ h1{
         padding: 0px 20px;
     }
 
-    .intro, .missie{
+    .intro, .missie, .bijzonder, .floats, .onderwijs, .promoties, .moovon, .impact, .media, .logos__bottom{
         padding: 100px 0px;
     }
 
@@ -525,12 +1344,34 @@ h1{
         padding-top: 140px;
     }
 
-    p{
+    p, a, .black__cta{
         font-size: 18px;
         line-height: 27px;
     }
 
 
+    .bijzonder__img__right{
+        width: 80%;
+        background-size: contain;
+        height: 350px
+    }
+
+    .publicaties__card p, .publicaties__card h6, .publicaties__card a{
+        margin-left: 20px;
+    }
+
+    .promo__card:nth-of-type(1){
+        margin-bottom: 30px;
+    }
+
+    .promo__card h6{
+        font-size: 25px;
+    }
+
+    .onderwijs h5{
+        font-size: 50px;
+        line-height: 60px;
+    }
 
 }
 
@@ -561,6 +1402,24 @@ h1{
         width: 100%;
     }
 
+    .bijzonder h5{
+        margin-bottom: 50px;
+    }
+
+
+}
+
+
+@media (max-width: 350px) {
+    
+    .bijzonder__img__right, .bijzonder__img__left{
+        height: 275px;
+        width: 100%;
+    }
+
+    .promo__card{
+        padding-right: 20px;
+    }
 
 }
 
